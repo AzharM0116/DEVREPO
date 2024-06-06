@@ -1,13 +1,12 @@
--- Author : Azhar
--- Date(DD-MM-YYYY) : 04-May-2024
--- Object : 
--- Description : This file contains the list of sql files to deploy with .sql extension
--- Other Comments : 
--- SRT reference for Change : 
+-- Deployment_Script_SRT01.sql
+-- Author: Azhar
+-- Date(DD-MM-YYYY): 04-May-2024
+-- Object: Deployment Script
+-- Description: This file executes table1.sql and table2.sql
+-- Other Comments: 
+-- SRT reference for Change: 
 
+!source ./GEARDB/TOPS/table1.sql
+!source ./GEARDB/TOPS/table2.sql
 
-Table1.SQL
-
-Table2.SQL
-
-SELECT 'Main script executed' AS status;
+SELECT 'Deployment script executed' AS status;
