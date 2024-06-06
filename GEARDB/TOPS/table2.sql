@@ -5,5 +5,6 @@
 -- Other Comments : 
 -- SRT reference for Change : 
 
-CREATE TABLE table2 ( id INTEGER, description STRING );
-
+USE DATABASE GEAR_DEV_DB;
+USE SCHEMA TOPS;
+CREATE TABLE IF NOT EXISTS table2 ( id INTEGER, description STRING );
