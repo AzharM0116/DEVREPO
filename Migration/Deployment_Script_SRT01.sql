@@ -1,12 +1,12 @@
--- Deployment_Script_SRT01.sql
--- Author: Azhar
--- Date(DD-MM-YYYY): 04-May-2024
--- Object: Deployment Script
--- Description: This file executes table1.sql and table2.sql
--- Other Comments: 
--- SRT reference for Change: 
+-- Author : Azhar
+-- Date(DD-MM-YYYY) : 04-May-2024
+-- Object : Deployment_Script_SRT01.sql
+-- Description : This file will deploy tables by calling table1.sql and table2.sql
+-- Other Comments : 
+-- SRT reference for Change : 
 
-!source ./GEARDB/TOPS/table1.sql
-!source ./GEARDB/TOPS/table2.sql
+!source C:\Users\User\Downloads\table1.sql
+!source C:\Users\User\Downloads\table2.sql
 
-SELECT 'Deployment script executed' AS status;
+-- Any additional commands can be added here
+SELECT 'Deployment script executed successfully' AS status;
